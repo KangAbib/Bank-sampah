@@ -1,0 +1,83 @@
+body {
+    background-color: #358b71;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set tinggi agar elemen tengah berada di tengah halaman */
+}
+
+.login-container {
+    width: 75%; /* Sesuaikan lebar container sesuai kebutuhan */
+    height: 75%;
+    padding: 20px; /* Sesuaikan padding sesuai kebutuhan */
+    background-color: #ffffff; /* Atur warna latar belakang menjadi putih */
+    border-radius: 50px; /* Menjadikan kotak menjadi rounded dengan radius 10px */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan shadow untuk efek mendalam */
+}
+
+.login-container h2 {
+    margin-bottom: 20px; /* Menambahkan ruang antara elemen */
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.input-div {
+    margin-bottom: 20px; /* Menambahkan ruang antara elemen */
+    position: relative;
+}
+
+.input-div i{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-div h5 {
+    margin: 10px; /* Menjadikan tulisan berada di tengah */
+}
+
+.input-div input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-login {
+    width: 100%; /* Atur lebar tombol menjadi 100% dari lebar parentnya */
+    background-color: #358B71; /* Memberi warna latar belakang tombol */
+    color: #ffffff; /* Warna teks di dalam tombol */
+    border: none; /* Hilangkan border pada tombol */
+    padding: 10px; /* Atur padding tombol */
+    border-radius: 40px; /* Memberi efek sudut bulat pada tombol */
+    cursor: pointer; /* Ubah kursor saat diarahkan ke tombol */
+    text-transform: uppercase;
+}
+
+/* Efek hover saat kursor diarahkan ke tombol */
+.btn-login:hover {
+    background-color: #2F725C; /* Warna latar belakang saat hover */
+}
+
+.input-icon{
+    padding-right: 10px;
+}
+
+.container .login-container .img {
+    display: flex;
+    justify-content: center;
+}
+
+.container .login-container .img img {
+    width: 100px;
+}
+
+
